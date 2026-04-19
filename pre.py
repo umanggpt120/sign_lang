@@ -152,7 +152,7 @@ def speech_worker():
         if item is None:
             break
         english_text, mode = item
-        print(f"🔊 Speaking [{mode.upper()}]: {english_text}")
+        print(f" Speaking [{mode.upper()}]: {english_text}")
         if mode == "hi":
             hindi_text = translate_to_hindi(english_text)
             _speak_hindi(hindi_text)

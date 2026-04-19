@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env/
+pip-log.txt
+pip-delete-this-directory.txt
+.vscode/
+
+# Ignore sensitive or local paths
+*.log
+
+# Windows specific
+thumbs.db
+desktop.ini
